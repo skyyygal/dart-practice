@@ -1,5 +1,5 @@
 void main() {
-  // Map<dynamic, dynamic> person = {"name": "Anita", "age": 25, 1: 2};
+  Map<dynamic, dynamic> person = {"name": "Anita", "age": 25, 1: 2};
   /*   var age = person.containsKey('age');
   var namev = person.containsValue('25');
   print(namev);
@@ -17,7 +17,7 @@ void main() {
   print(weight);
   print(person); */
 
-  /*   //Iteration in keys
+  //Iteration in keys
 
   for (var keys in person.keys) {
     print(person[keys]);
@@ -27,5 +27,5 @@ void main() {
   }
   for (var entry in person.entries) {
     print("${entry.key}: ${entry.value}");
-  } */
+  }
 }

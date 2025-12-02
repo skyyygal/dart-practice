@@ -14,7 +14,7 @@ ratings: [4.0, 5.0, 4.0
 ]
 '''*/
 void main() {
-  void restaurants = [
+  var restaurants = [
     {
       'name': 'Pizza Mario',
       'cuisine': 'Italian',
@@ -31,4 +31,26 @@ void main() {
       'ratings': [4.0, 5.0, 4.0],
     },
   ];
+
+  for (var restaurant in restaurants) {
+    // print(restaurant['name']);
+
+    final ratings = restaurant['ratings'] as List<double>;
+    var total = 0.0;
+
+    for (var rating in ratings) {
+      total += rating;
+    }
+
+    // print(total);
+    final avgRating = total / ratings.length;
+    print(avgRating);
+    restaurant['avgRating'] = avgRating;
+    print(restaurant);
+    // final list = ratings[1];
+    // print(list);
+    // print(ratings);
+  }
 }
+
+///Problem- Calculate the avg of rating
