@@ -3,6 +3,7 @@ class Person {
   final int age;
 
   Person({required this.name, required this.age});
+  //
   factory Person.fromJson(Map<String, Object> json) {
     final name = json['name'];
     final age = json['age'];
