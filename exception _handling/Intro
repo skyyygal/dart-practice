@@ -1,0 +1,21 @@
+## Error and exception Handling - Make your code roburst and improve user experience.
+
+- Differenct kinds of errors. Some Eg:
+
+1. Read or write files -> I/O errors.
+2. Network request -> networking errors.
+3. Programmer errors.
+
+Errors vs Eception.
+
+1. Assertions
+2. throw exceptions
+3. try, catch finally, rethrow.
+
+What's error?
+-> Error is programmer mistake(we did something wrong).
+-> Calling a function with invalid arguments, index out of bounds etc.
+
+Exception
+-> Failure condition: something unexpected happened.
+-> Unexpected: out of our control.
