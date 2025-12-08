@@ -19,3 +19,4 @@ What's error?
 Exception
 -> Failure condition: something unexpected happened.
 -> Unexpected: out of our control.
+-> Handle it(eg. show message to user) and recover.
