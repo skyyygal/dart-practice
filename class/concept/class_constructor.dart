@@ -1,9 +1,5 @@
 class BankAccount {
-  BankAccount(double balance) {
-    this.balance = balance;
-    // balance = balance;
-    // we have 2 balance we use "this" to disambiguate between the variables with same name
-  }
+  BankAccount(this.balance);
   double balance = 0;
   void deposit(double amount) {
     balance += amount;

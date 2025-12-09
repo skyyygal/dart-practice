@@ -1,5 +1,5 @@
 class BankAccount {
-  BankAccount(double balance) : balance = balance;
+  BankAccount(this.balance);
   double balance = 0;
   /*                    _____________
                        |             |         

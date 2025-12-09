@@ -1,0 +1,10 @@
+## Async Programming
+
+Most applications need this:
+
+1. Fetching data from the network.
+2. Writing to a database.
+3. Reading Data from file.
+
+Your apps needs to be responsive while waiting for async operations to complete.
+-> In Dart this is done with Futures, async and await.
