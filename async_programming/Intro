@@ -1,0 +1,22 @@
+## Async Programming
+
+Most applications need this:
+
+1. Fetching data from the network.
+2. Writing to a database.
+3. Reading Data from file.
+
+Your apps needs to be responsive while waiting for async operations to complete.
+-> In Dart this is done with Futures, async and await.
+-> Sometimes we can produce async operation that can produce more than one result at a time.
+Streams: asynchronous elements delivered over time.
+
+- often used in reactive applications. (than can update the UI when the new data is available.)
+
+We have other future named constructors.
+
+1. Future.delayed
+2. Future.error - useful when writing tests for your asynchronous code.
+3. Future.value - Use this if you want a Future that completes immediately / useful when writing tests for your asynchronous code.
+4. Future.sync
+5. Future.microtask
