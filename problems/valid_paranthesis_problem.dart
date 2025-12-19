@@ -1,24 +1,3 @@
-/// Problem: Valid Parentheses
-/// Task: Given a string s containing just the characters (, ), {, }, [, ], determine if the input string is valid.
-
-/// A string is valid if:
-
-/// Open brackets are closed by the same type.
-
-/// Open brackets are closed in the correct order.
-
-/// Examples:
-
-/// "()" → true
-
-/// "()[]{}" → true
-
-/// "(]" → false
-
-/// "([)]" → false (wrong order)
-
-/// "{[]}" → true
-
 void main() {
   String s = "(,[,[,],(,){,},],)";
   print(isValid(s)); // true
@@ -40,3 +19,29 @@ bool isValid(String s) {
   }
   return stack.isEmpty;
 }
+
+
+
+
+
+/// Problem: Valid Parentheses
+/// Task: Given a string s containing just the characters (, ), {, }, [, ], determine if the input string is valid.
+
+/// A string is valid if:
+
+/// Open brackets are closed by the same type.
+
+/// Open brackets are closed in the correct order.
+
+/// Examples:
+
+/// "()" → true
+
+/// "()[]{}" → true
+
+/// "(]" → false
+
+/// "([)]" → false (wrong order)
+
+/// "{[]}" → true
+

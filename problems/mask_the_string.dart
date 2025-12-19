@@ -33,4 +33,8 @@ void main() {
     // here the part[0] is replaced with maskedLocalPart.
   }
   print(parts);
-} // prints [j******e, example.com]
+  // prints [j******e, example.com]
+  var finalEmail = parts.join("@");
+  // j******e@example.com
+  print(finalEmail);
+}
